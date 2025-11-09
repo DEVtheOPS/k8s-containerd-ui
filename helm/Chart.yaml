@@ -1,0 +1,17 @@
+apiVersion: v2
+name: containerd-ui
+description: A web UI for managing containerd container images
+type: application
+version: 0.1.0
+appVersion: "latest"
+keywords:
+  - containerd
+  - container
+  - images
+  - ui
+home: https://github.com/your-org/containerd-ui
+sources:
+  - https://github.com/your-org/containerd-ui
+maintainers:
+  - name: containerd-ui-maintainers
+    email: maintainers@example.com

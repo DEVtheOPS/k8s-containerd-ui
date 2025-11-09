@@ -1,0 +1,9 @@
+# Default values for containerd-ui
+app:
+  name: containerd-ui
+  replicas: 1
+
+image:
+  repository: containerd-ui
+  tag: latest
+  pullPolicy: IfNotPresent
